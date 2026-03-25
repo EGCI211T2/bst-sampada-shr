@@ -8,7 +8,8 @@ int main(int argc, char **argv) {
   for (i = 1; i < argc; ++i) {
        b.insert_node (atoi(argv[i]));
   } // end for
-   b.print();//in order function
+
+  b.print(3);//print all function
 
   //b.searchtree(11);
  
